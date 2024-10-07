@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         scannerHome = tool 'SonarQube-Scanner'
+        SONAR_TOKEN = credentials('sonarqube-token')
     }
 
     stages {
