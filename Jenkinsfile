@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'Built-in Node' }
+    agent { label 'master' }
 
     environment {
         scannerHome = tool 'SonarQube-Scanner'
